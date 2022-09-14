@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 
 /**
  * main - entry point
@@ -11,9 +11,10 @@
 void alphabet_print(void)
 {
 	char alpha;
+
 	alpha = 'a';
 
-	while(alpha <= 'z');
+	while (alpha <= 'z');
 	{
 		_putchar(alpha);
 		alpha++;
