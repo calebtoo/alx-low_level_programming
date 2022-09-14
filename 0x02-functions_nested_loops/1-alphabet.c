@@ -8,7 +8,7 @@
  * Return: 0
  */
 
-int main(void)
+void alphabet_print(void)
 {
 	char alpha;
 	alpha = 'a';
@@ -19,5 +19,4 @@ int main(void)
 		alpha++;
 	}
 	_putchar('\n');
-	Return(0);
 }
