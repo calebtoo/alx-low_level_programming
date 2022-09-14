@@ -2,6 +2,7 @@
 
 /**
  * islower - prints result if lowercase
+ * c - character to check
  * Return: 0 or 1
  */
 
