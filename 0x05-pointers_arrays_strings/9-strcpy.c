@@ -6,8 +6,7 @@
  * Return: length
  */
 
-/**
- * int _strlen(char *s)
+int _strlen(char *s)
 {
 	int len = 0;
 
@@ -19,7 +18,6 @@
 
 	return (len);
 }
-*/
 
 /**
  * _strcpy - copies the string pointed to by src,
@@ -29,6 +27,16 @@
  * @src: source to copy
  * Return: copy of the original source
  */
+char *_strcpy(char *dest, char *src)
+{
+	int i;
+
+	for (i = 0; i <= _strlen(src); i++)
+		dest[i] = src[i];
+
+	return (dest);
+}
+/** another method
 
 char *_strcpy(char *dest, char *src)
 {
@@ -40,3 +48,4 @@ char *_strcpy(char *dest, char *src)
 	}
 	return (dest);
 }
+*/
