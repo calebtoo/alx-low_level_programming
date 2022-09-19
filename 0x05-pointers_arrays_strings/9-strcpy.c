@@ -6,7 +6,8 @@
  * Return: length
  */
 
-int _strlen(char *s)
+/**
+ * int _strlen(char *s)
 {
 	int len = 0;
 
@@ -18,6 +19,7 @@ int _strlen(char *s)
 
 	return (len);
 }
+*/
 
 /**
  * _strcpy - copies the string pointed to by src,
