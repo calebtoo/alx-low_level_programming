@@ -13,7 +13,7 @@ int sum_them_all(const unsigned int n, ...)
 	unsigned int sum = 0, i;
 
 	/* validate sumlist and initialize */
-	of (n == 0)
+	if (n == 0)
 		return (0);
 	va_start(sumlist, n);
 
